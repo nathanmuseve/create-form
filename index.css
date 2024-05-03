@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px 6rem;
+  box-shadow: 0px 10px 20px 4px blue;
+}
+form {
+  border: 2px solid #345
+}
+.img-avatar{
+  text-align: center;
+  padding: 1rem;
+  margin: 5px;
+}
+.input {
+  margin: 0px 8px 0px 8px;
+}
+input[type=text], input[type=date], input[type=password], input[type=email], button:not(.cancelbtn), input[type=submit], [type=file]  {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin: 8px 8px 0px 0px;
+  box-sizing: border-box;
+  border: 1px solid #4294FF;
+}
+label  {
+  font-size: x-large;
+  margin: 8px;
+  font-weight: bold;
+}
+.login {
+  background-color: #4294FF;
+  text-align: center;
+  border: none;
+}
+button.cancelbtn {
+  padding: 8px 10px;
+  background-color: #ed4e42;
+  margin: 6px;
+  font-size: large;
+  border: none;
+}
+.fpswd {
+  float: right;
+  margin: 0px 8px;
+}
+@media (max-width: 440px) and (max-width:576px) {
+  .form {
+    width: 100%;
+    margin: 5px;
+    box-shadow: none;
+  }
+  input[type=text], input[type=date], input[type=password], input[type=email], button:not(.cancelbtn), input[type=submit], [type=file] {
+    width: 100%;
+    padding: none;
+    margin: 0px;
+  }
+  button.cancelbtn {
+    width: 100%;
+    margin:auto;
+    padding: auto;
+  }
+  .fpswd {
+    float: none;
+  }
+}
